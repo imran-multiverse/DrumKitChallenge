@@ -1,0 +1,178 @@
+body{
+    margin:32px;
+    width: 100%;
+    height: 35vw;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1% 15% 10% 2% 10% 6% 38% 17%;
+    grid-template-columns: 47% auto ;
+    /*width:1280px;*/
+    width: 43vw;
+    height: 35vw;
+
+
+
+    /* background-image: url("Assets/drums.png"); */
+}
+
+.drum_img {
+    max-width: 43vw;
+    height: 35vw;
+}
+
+.drumstick_img_1 {
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_2 {
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_3 {
+
+    max-width: 90%;
+    height: 90%;
+    object-fit: contain;
+    position: relative;
+    top:5%;
+    left: 62%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_4 {
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 80%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_5 {
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 42%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_6 {
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 23%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_7 {
+
+    max-width: 30%;
+    height: 30%;
+    object-fit: contain;
+    position: relative;
+    left: 60%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.drumstick_img_8 {
+
+    max-width: 50%;
+    height: 50%;
+    object-fit:contain;
+    position: relative;
+    top: 40%;
+    left: 2%;
+    cursor: pointer;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.button_1 {
+    position: relative;
+    left: 50%;
+    top: 30%;
+}
+
+.button_2 {
+    position: relative;
+    left: 330px;
+    top: 90px;
+}
+
+.button_3 {
+    position: relative;
+    left: 430px;
+    top: 60px;
+}
+
+.button_4 {
+    position: relative;
+    left: 490px;
+    top: 20px;
+}
+
+.button_5 {
+    position: relative;
+    left: 170px;
+    top: 20px;
+}
+
+.button_6 {
+    position: relative;
+    left: 275px;
+    top: 67px;
+}
+
+.button_7 {
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+.button_8 {
+    position: relative;
+    left: 40px;
+    top: 190px;
+}
+
+.drumstick_img_1:hover, 
+.drumstick_img_2:hover,
+.drumstick_img_3:hover,
+.drumstick_img_4:hover,
+.drumstick_img_5:hover,
+.drumstick_img_6:hover,
+.drumstick_img_7:hover,
+.drumstick_img_8:hover
+{
+    opacity: .8;
+}
